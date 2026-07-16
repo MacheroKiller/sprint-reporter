@@ -16,7 +16,7 @@ Everything runs locally except the Taiga API calls, so there's no per-request co
 ┌─────────────┐      ┌────────────────┐      ┌───────────────┐
 │ Taiga API   │ ───▶ │ TaigaClient    │ ───▶ │ IaConnection  │ ───▶ report text
 │ (REST)      │      │ (auth, fetch,  │      │ (clean + LLM  │
-│             │      │  filter stories)│      │  via Ollama)  │
+│             │      │ filter stories)│      │  via Ollama)  │
 └─────────────┘      └────────────────┘      └───────────────┘
 ```
 
