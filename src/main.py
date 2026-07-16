@@ -45,7 +45,7 @@ def main():
         print(f"Could not retrieve the information: {e}")
         return
 
-    print(f"Assigned User Stories: {user_stories}")
+    print(f"Amount of Assigned User Stories: {len(user_stories)}")
 
     if not user_stories:
         print("No user stories were found for the selected sprint.")
